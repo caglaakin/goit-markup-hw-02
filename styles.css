@@ -1,0 +1,159 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #434455;
+}
+
+.logo{
+    color:#2E2F42;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+    color: white;
+    width: 496px;
+    height: 120px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+h3{
+    font-weight: medium;
+    font-size: 20px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+button{
+    width: 169px;
+    height: 56px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    background-color: #4D5AE5;
+    color:white;
+    cursor: pointer;
+    border-radius: 4px;
+    border-style: none;
+}
+button:hover{
+    background-color: #404BBF; 
+}
+
+a{
+    text-decoration: none;
+    color: #434455;
+}
+
+.baslik {
+    text-align: center;
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+}
+
+.nav-list ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.nav-list ul li a:hover {
+    color: #404BBF;
+}
+
+.nav-list ul li a:active {
+    color: #404BBF;
+}
+
+.vertical-list ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-style: normal;
+}
+
+.vertical-list ul li a:hover {
+    color: #404BBF;
+}
+
+.vision{
+    width: 1128px;
+    height: 104px;
+    margin: auto;
+}
+.vision ul li{
+    display: inline-block;
+    list-style-type: none;
+    width: 264px;
+    gap: 24px;
+    text-align: left;
+}
+.vision ul li h3,p{
+    margin: 0 auto;
+}
+
+.our-team{
+    background-image: url(./images/our-team-bg.jpg);
+    width: 1440px;
+    height: 732px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.our-team ul{
+    padding: 0;
+}
+
+.our-team ul li{
+    width: 264px;
+    height: 380px;
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.our-portfolio{
+    width: 1128px;
+    height: 1000px;
+    text-align: center;
+    margin: auto;
+}
+
+.our-portfolio ul{
+    height: 420px;
+    padding: 0;
+}
+
+.our-portfolio ul li{
+    width: 360px;
+    display: inline-block;
+    list-style-type: none;
+    text-align: left;
+    line-height: 1.5;
+    margin: 6px;
+}
+
+.footer{
+    width: 1440px;
+    height: 312px;
+    background-color: #2E2F42;
+}
+.footer div{
+    width: 264px;
+    height: 112px;
+    color: #F4F4FD;
+}
