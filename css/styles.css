@@ -92,11 +92,12 @@ button{
     letter-spacing: 0.04em;
     border-radius: 4px;
     cursor: pointer;
+    color: #FFFFFF;
 }
 
 button.order-button{
     background-color: #4D5AE5;
-    color: #FFFFFF;
+    
 }
 
 button.order-button:hover{
