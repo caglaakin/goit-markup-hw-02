@@ -4,6 +4,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
+    color: #434455;
 }
 
 footer{
@@ -45,14 +46,24 @@ header nav ul li{
 a.menu-list-nav:hover{
     color:#404BBF;
 }
+a.menu-list-nav:focus{
+    color: #404BBF;
+}
+
+.header-add{
+    font-style: normal;
+}
 
 .menu-list-add{
     text-decoration: none;
     list-style-type: none;
-    font-style: normal;
     color: #434455;
 }
 a.menu-list-add:hover {
+    color: #404BBF;
+}
+
+a.menu-list-add:focus{
     color: #404BBF;
 }
 
@@ -63,18 +74,21 @@ a.menu-list-add:hover {
     background-color: #F4F4FD;
 }
 
-.section-entrance .header-one{
+.header-one{
     color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 button{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     border-radius: 4px;
     cursor: pointer;
@@ -89,12 +103,19 @@ button.order-button:hover{
     background-color: #404BBF;
 }
 
+button.order-button:focus{
+    background-color: #404BBF;
+}
+
 .header-two{
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 36px;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .header-three{
@@ -113,6 +134,11 @@ button.order-button:hover{
     letter-spacing: 0.02em;
     color: #434455;
 }
-footer .paragraph{
+
+.members{
+    background-color: #FFFFFF;
+}
+
+.footer .paragraph{
     color: #F4F4FD;
 }
